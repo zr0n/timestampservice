@@ -13,6 +13,6 @@ app.get("/:date", function(req, res){
   res.end();
 })
 
-app.listen("80", function(){
+app.listen(process.env.PORT, function(){
   console.log("Timestamp Running");
 });
