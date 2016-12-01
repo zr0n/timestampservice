@@ -13,6 +13,6 @@ app.get("/:date", function(req, res){
   res.end();
 })
 
-app.listen("3000", function(){
+app.listen("80", function(){
   console.log("Timestamp Running");
 });
